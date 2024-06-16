@@ -1,0 +1,11 @@
+{% extends "admin/change_list.html" %}
+
+{% block object-tools %}
+    <div class="object-tools">
+        <ul class="object-tools">
+            <li>
+                <a href="{% url 'admin:ifood_auth_accesstoken_changelist' %}request-token/">Request Token</a>
+            </li>
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Token</title>
+</head>
+<body>
+    <h1>Request Token</h1>
+    <!-- Formulário para solicitar o token -->
+    <form method="post">
+        {% csrf_token %}
+        <input type="submit" value="Request Token">
+    </form>
+</body>
+</html>
